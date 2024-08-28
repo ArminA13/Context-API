@@ -1,5 +1,7 @@
+import UserInfo from "./UserInfo";
+
 const User = () => {
-  return <div>User</div>;
+  return <UserInfo />;
 };
 
 export default User;

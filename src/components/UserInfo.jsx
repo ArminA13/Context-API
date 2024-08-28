@@ -1,5 +1,9 @@
+import UserContext from "../context/UserContext";
+
 const UserInfo = () => {
-  return <div>UserInfo</div>;
+  return (
+    <UserContext.Consumer>{(value) => <h1>{value}</h1>}</UserContext.Consumer>
+  );
 };
 
 export default UserInfo;
